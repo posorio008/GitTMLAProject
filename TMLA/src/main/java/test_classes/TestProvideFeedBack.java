@@ -30,11 +30,10 @@ public class TestProvideFeedBack {
 				strContent = sh.getCell(col, row).getContents();
 				System.out.println("my strcontent =" + col + row + strContent);
 				
-				/*
+				
 				if (sh.getCell(col, row).getContents().contentEquals("Chrome")){
 					SetCrossBrowsers.ChromeInstance(row, col, objProvideFeedback, FilePath);
 				}
-				*/
 				
 				if (sh.getCell(col, row).getContents().contentEquals("IE")){
 					System.out.println("this is my IE info: " +driver+" "+row+" "+col+" "+FilePath);
@@ -46,7 +45,6 @@ public class TestProvideFeedBack {
 					SetCrossBrowsers.FireFoxInstance(sh, row, col, objProvideFeedback, FilePath);
 				}
 				*/
-				
 			}
 			System.out.println();
 		}
