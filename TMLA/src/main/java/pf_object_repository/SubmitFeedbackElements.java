@@ -15,7 +15,7 @@ public class SubmitFeedbackElements {
 
 	WebDriver driver;
 
-	//Feedback Open - Initial Button.
+	//Feedback Open - Initial Button for Open.
 	@FindBy(id="btn-feedback-open")
 	static
     WebElement ButtonOpenBTN;
